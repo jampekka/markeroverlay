@@ -16,14 +16,14 @@ def run():
     root.title("Markers")
     root.geometry("+600+500")
     markersize = 256
-    m1 = create_marker(root, "small_0_marker.gif", f"+0+0")
-    m1 = create_marker(root, "small_1_marker.gif", f"-0+0")
+    m1 = create_marker(root, "small_0_marker.gif", "+0+0")
+    m1 = create_marker(root, "small_1_marker.gif", "-0+0")
     
-    m1 = create_marker(root, "small_2_marker.gif", f"+600+0")
-    m1 = create_marker(root, "small_3_marker.gif", f"-600+0")
+    m1 = create_marker(root, "small_2_marker.gif", "+600+0")
+    m1 = create_marker(root, "small_3_marker.gif", "-600+0")
 
-    m1 = create_marker(root, "small_4_marker.gif", f"+0-200")
-    m1 = create_marker(root, "small_5_marker.gif", f"-0-200")
+    m1 = create_marker(root, "small_4_marker.gif", "+0-200")
+    m1 = create_marker(root, "small_5_marker.gif", "-0-200")
 
     root.mainloop()
 
