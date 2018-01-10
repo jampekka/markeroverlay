@@ -12,7 +12,9 @@ def create_marker(app, image, position):
 
 def run():
     root = tk.Tk()
-    root.withdraw()
+    tk.Label(root, text="Close me to close the markers", width=30, height=5).pack()
+    root.title("Markers")
+    root.geometry("+600+500")
     markersize = 256
     m1 = create_marker(root, "small_0_marker.gif", f"+0+0")
     m1 = create_marker(root, "small_1_marker.gif", f"-0+0")
